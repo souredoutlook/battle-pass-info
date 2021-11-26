@@ -5,7 +5,11 @@ function App() {
   return (
     <div className="App">
       <p>My website</p>
-      <BigNumber />
+      <BigNumber 
+        title="Battle Pass Price"
+        icon={<img src="./favicon.png"/>}
+        value={1000}
+      />
     </div>
   );
 } 
