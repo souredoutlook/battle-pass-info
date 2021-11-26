@@ -1,9 +1,13 @@
-import './BigNumber.css';
+import './BigNumber.scss';
 
 function BigNumber() {
   return (
-    <div className="BigNumber">
-      <p>Big Number widget</p>
+    <div className="bignumber">
+      <div>Title</div>
+      <div className="bignumber-values">
+        <div>$</div>
+        <div>1000</div> 
+      </div>
     </div>
   );
 } 

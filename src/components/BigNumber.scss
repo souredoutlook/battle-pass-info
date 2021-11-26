@@ -1,0 +1,10 @@
+.bignumber {
+    display: flex;
+    flex-direction: column;
+ 
+    &-values{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+  }
