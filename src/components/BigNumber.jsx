@@ -11,7 +11,7 @@ function BigNumber(props) {
     <div className="bignumber">
       <div className="bignumber-title">{title}</div>
       <div className="bignumber-values">
-        <div className="bignumber-icon">{icon}</div>
+        {icon}
         <div>{value}</div> 
       </div>
     </div>

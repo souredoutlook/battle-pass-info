@@ -1,0 +1,67 @@
+@import "./styles/palette.scss";
+@import "./styles/fonts.scss";
+
+.App {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.header {
+  height: 100px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  background-image: $gradient-header;
+  box-shadow: 1px 1px 10px $accent;
+  font-family: $headline;
+  font-size: x-large;
+  
+  &-upper{
+    height: 100px;
+    width: 100%;
+    display: flex;
+    flex-direction: row-reverse;
+    background-image: $gradient-header-upper;
+    box-shadow: 1px 1px 10px $accent;
+    font-family: $headline;
+
+    .logo {
+      font-size: 64px;
+      color: #00000044;
+      -webkit-transition: all 0.4s linear;
+      -moz-transition: all 0.4s linear;
+      -ms-transition: all 0.4s linear;
+      -o-transition: all 0.4s linear;
+      transition: all 0.4s linear;
+
+      &:hover {
+        color: black;
+        text-shadow: 1px 1px 10px $blue-light;
+      }
+    }
+  }
+}
+
+.content {
+  margin: 1em;
+  padding: 1em;
+  height: 100%;
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  background: white;
+  border-radius: 10px;
+  box-shadow: 1px 1px 10px $grey;
+
+  & .cards {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  
+}

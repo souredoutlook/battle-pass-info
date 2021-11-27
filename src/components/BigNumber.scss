@@ -1,10 +1,29 @@
+@import "../styles/palette.scss";
+
 .bignumber {
+    margin-bottom: 1em;
     display: flex;
     flex-direction: column;
- 
+    border-radius: 10px;
+    // box-shadow: 1px 1px 10px $accent;
+    background-color: $light;
+    padding: 1em;
+    width: 25%;
+    text-align: center;
+    font-size: x-large;
+    
+    &:hover{
+      box-shadow: 1px 1px 10px $grey;
+    }
+
     &-values{
+        padding: 0.5em;
         display: flex;
         flex-direction: row;
-        justify-content: center;
+        justify-content: space-around;
+        align-items: center;
+        align-content: center;
+        text-align: center;
+        font-size:xx-large;
     }
   }
