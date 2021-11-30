@@ -1,0 +1,5 @@
+DROP TABLE IF EXISTS gear_types CASCADE;
+
+CREATE TABLE gear_types (
+  id VARCHAR(255) PRIMARY KEY
+);

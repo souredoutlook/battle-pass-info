@@ -1,0 +1,6 @@
+DROP TABLE IF EXISTS seasons CASCADE;
+
+CREATE TABLE seasons (
+  id VARCHAR(255) PRIMARY KEY,
+  release_date DATE NOT NULL
+);
