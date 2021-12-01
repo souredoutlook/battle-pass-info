@@ -20,7 +20,8 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "reset-db": "node bin/reset.js"
+    "reset-db": "node bin/reset.js",
+    "queries":"node bin/query.js"
   },
   "eslintConfig": {
     "extends": [
