@@ -1,5 +1,5 @@
 INSERT INTO seasons (id, release_date)
 VALUES
   ('None', '211115'), -- catch all
-  ('Autumn 2021', '211115')
+  ('Autumn 2021', '211115') --actually Autumn 2020
 ;
