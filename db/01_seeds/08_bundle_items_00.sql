@@ -195,7 +195,25 @@ VALUES
   ('Ryuu', 'Visor', 300, 'Desert Sun', 'Yoroi'),
   ('Forgotten Sands', 'Armor Coating', 200, 'Desert Sun', 'Yoroi'),
   ('Forgotten Sands', 'Armor Coating', 200, 'Desert Sun', 'Mark VII'),
-  ('Forgotten Sands', 'Armor Coating', 200, 'Desert Sun', 'Mark V [B]')
+  ('Forgotten Sands', 'Armor Coating', 200, 'Desert Sun', 'Mark V [B]'),
+--Anubis Armor Set
+  ('Arctic Void', 'Armor Coating', 300, 'Anubis Armor Set', 'Mark VII'),
+  ('Anubis', 'Helmet', 300, 'Anubis Armor Set', 'Mark VII'),
+  ('RS[3]/Sabertooth', 'Helmet Attachment', 300, 'Anubis Armor Set', 'Mark VII'),
+  ('Buckingham', 'Visor', 300, 'Anubis Armor Set', 'Mark VII'),
+  ('UA/EFREM', 'Shoulder Left', 300, 'Anubis Armor Set', 'Mark VII'),
+  ('UA/EFREM', 'Shoulder Right', 300, 'Anubis Armor Set', 'Mark VII'),
+  ('UA/EFREM', 'Shoulder Left', 300, 'Anubis Armor Set', 'Mark VII'),
+  ('UA/Type SP', 'Knee Pads', 300, 'Anubis Armor Set', 'Mark VII'),
+  ('Vigilant Watch', 'Stance', 200, 'Anubis Armor Set', 'Mark VII'),
+-- Reach Falcon Pilot Pack
+  ('Falcon', 'Nameplate', 200, 'Reach Falcon Pilot Pack', NULL),
+  ('Tragic Wintessa', 'Armor Coating', 200, 'Reach Falcon Pilot Pack', 'Mark V [B]'),
+  ('SAP/MT', 'Shoulder Left', 200, 'Reach Falcon Pilot Pack', 'Mark V [B]'),
+  ('SAP/MT', 'Shoulder Right', 200, 'Reach Falcon Pilot Pack', 'Mark V [B]'),
+  ('Falcon', 'Vehicle Emblem', 200, 'Reach Falcon Pilot Pack', NULL),
+  ('Falcon', 'Armor Emblem', 200, 'Reach Falcon Pilot Pack', NULL),
+  ('Falcon', 'Weapon Emblem', 200, 'Reach Falcon Pilot Pack', NULL)
 
 ;
   
@@ -211,8 +229,20 @@ VALUES
   ('Noble Principle', 'Vehicle Coating', 200, 'A259 Collection', 'M15 Razorback'),
   ('Noble Principle', 'Vehicle Emblem', 200, 'A259 Collection', NULL),
   ('Noble Principle', 'Armor Emblem', 200, 'A259 Collection', NULL),
-  ('Noble Principle', 'Weapon Emblem', 200, 'A259 Collection', NULL)
-  
+  ('Noble Principle', 'Weapon Emblem', 200, 'A259 Collection', NULL);
+
+INSERT INTO bundle_items (full_name, gear_type, rarity, bundle_id, locked_to_vehicle, locked_to_core)
+VALUES
+  --Splinter Desert
+  ('Splinter Desert', 'Armor Coating', 300, 'Splinter Desert', NULL, 'Mark VII'),
+  ('Stering Aid', 'Vehicle Model', 400, 'Splinter Desert', 'M12 Warthog', NULL),
+  ('Splinter Desert', 'Vehicle Coating', 300, 'Splinter Desert', 'M12 Warthog', NULL),
+  ('Splinter Desert', 'Vehicle Coating', 300, 'Splinter Desert', 'M290 Mongoose', NULL),
+  ('Splinter Desert', 'Vehicle Coating', 300, 'Splinter Desert', 'M808 Scorpion', NULL),
+  ('Splinter Desert', 'Vehicle Coating', 300, 'Splinter Desert', 'AV-49 Wasp', NULL),
+  ('Splinter Desert', 'Vehicle Coating', 300, 'Splinter Desert', 'M15 Razorback', NULL),
+  ('Splinter Desert', 'Vehicle Coating', 300, 'Splinter Desert', 'M290-M Gungoose', NULL),
+  ('Splinter Desert', 'Vehicle Coating', 300, 'Splinter Desert', 'M12-R Rockethog', NULL)
 ;
 
 INSERT INTO bundle_items (full_name, gear_type, rarity, bundle_id, locked_to_core, locked_to_vehicle)
@@ -243,4 +273,13 @@ VALUES
   ('Vigilance', 'Armor Emblem', 300, 'Vigilant Sniper', NULL),
   ('Vigilance', 'Weapon Emblem', 300, 'Vigilant Sniper', NULL)
 
+;
+
+INSERT INTO bundle_items (full_name, gear_type, rarity, bundle_id, locked_to_weapon, locked_to_core)
+VALUES
+--Tacticlamp 117
+  ('Lilac Steel', 'Weapon Coating', 200, 'Tacticlamp 117', 'MK50 Sidekick', NULL),
+  ('Tacticlamp', 'Weapon Model', 200, 'Tacticlamp 117', 'MK50 Sidekick', NULL),
+  ('Agent 117', 'Stance', 300, 'Tacticlamp 117', NULL, NULL),
+  ('Big Sur', 'Armor Coating', 200, 'Tacticlamp 117', NULL, 'Mark VII')
 ;

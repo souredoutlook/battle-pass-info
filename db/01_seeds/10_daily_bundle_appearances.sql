@@ -21,5 +21,8 @@ VALUES
   ('211125', 'Lucky Blue'),
   ('211126', 'Scarlet Wave'),
   ('211127', 'Imperial Stance'),
-  ('211128', 'Ancient Spirit')
+  ('211128', 'Ancient Spirit'),
+  ('211129', 'Desert Sun'),
+  ('211130', 'Tacticlamp 117'),
+  ('211130', 'Reach Falcon Pilot Pack')
   ;

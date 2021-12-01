@@ -37,5 +37,10 @@ VALUES
   ('Scarlet Wave', 200, '211126', 700, 'Daily'), --flavour "For red-letter days. Requires the Yoroi armor core earned in the Fracture: Tenrai event."
   ('Imperial Stance', 200, '211127', 700, 'Daily'), --flavour "Honor above all else. Requires the Yoroi armor core earned in the Fracture: Tenrai event."
   ('Ancient Spirit', 200, '211128', 700, 'Daily'),
-  ('Desert Sun', 200, '211129', 700, 'Daily')
+  ('Desert Sun', 200, '211129', 700, 'Daily'),
+  ('Anubis Armor Set', 400, '211130', 2000, 'Weekly'),
+  ('Splinter Desert', 300, '211130', 1500, 'Weekly'),
+  ('Tacticlamp 117', 300, '211130', 1000, 'Daily'),
+  ('Reach Falcon Pilot Pack', 200, '211130', 700, 'Daily')
+
 ;
