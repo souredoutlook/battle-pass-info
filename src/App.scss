@@ -13,7 +13,7 @@
   width: 100%;
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
   background-image: $gradient-header;
   box-shadow: 1px 1px 10px $accent;
@@ -31,7 +31,7 @@
 
     .logo {
       font-size: 64px;
-      color: #00000044;
+      color: $black-soft;
       -webkit-transition: all 0.4s linear;
       -moz-transition: all 0.4s linear;
       -ms-transition: all 0.4s linear;
