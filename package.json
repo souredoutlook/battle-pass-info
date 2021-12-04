@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@sentry/node": "^6.15.0",
     "@sentry/react": "^6.15.0",
     "@sentry/tracing": "^6.15.0",
     "@testing-library/jest-dom": "^5.15.1",
@@ -21,7 +22,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "reset-db": "node bin/reset.js",
-    "queries":"node bin/query.js"
+    "queries": "node bin/query.js"
   },
   "eslintConfig": {
     "extends": [
