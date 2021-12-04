@@ -1,11 +1,8 @@
-import './BigNumber.scss';
-import {useState} from 'react';
+import './Card.scss';
 
 function BigNumber(props) {
 
   const {title, icon, value} = props;
-
-  const [state, setState] = useState({title, value})
 
   return (
     <div className="bignumber">

@@ -5,8 +5,8 @@
     display: flex;
     flex-direction: column;
     border-radius: 10px;
-    // box-shadow: 1px 1px 10px $accent;
     background-color: $light;
+    background-image: linear-gradient(45deg, $black-transparent 5%, #00000000 90%);
     padding: 1em;
     width: 25%;
     text-align: center;
