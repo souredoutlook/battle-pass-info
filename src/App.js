@@ -7,12 +7,10 @@ function App() {
   return (
     <div className="App">
       <header className="header-upper">
-        <div className="logo">battleplass.info</div>
+        <div className="logo">battlepass.info</div>
       </header>
       <header className="header">
-        <div>Season 1: Heroes of Reach</div>
-        <div>Tenrai Fracture</div>
-        <div>Weekly Challenge Gear</div>
+        <div>Explore</div>
         <div>About</div>
       </header>
       <div className="content">
