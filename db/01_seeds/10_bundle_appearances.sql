@@ -108,5 +108,6 @@ VALUES
   ('211229', 'Sweet Success'),
   ('211230', 'Got Game'),
   ('211231', 'Scarlet Medic'),
-  ('220101', 'Shred Or Die')
+  ('220101', 'Shred Or Die'),
+  ('220202', 'Citrus Ink')
   ;
