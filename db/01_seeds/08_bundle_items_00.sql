@@ -213,7 +213,128 @@ VALUES
   ('SAP/MT', 'Shoulder Right', 200, 'Reach Falcon Pilot Pack', 'Mark V [B]'),
   ('Falcon', 'Vehicle Emblem', 200, 'Reach Falcon Pilot Pack', NULL),
   ('Falcon', 'Armor Emblem', 200, 'Reach Falcon Pilot Pack', NULL),
-  ('Falcon', 'Weapon Emblem', 200, 'Reach Falcon Pilot Pack', NULL)
+  ('Falcon', 'Weapon Emblem', 200, 'Reach Falcon Pilot Pack', NULL),
+-- Reach Operator Pack
+  ('TAC/M1 Combat Knife', 'Chest', 300, 'Reach Operator Pack', 'Mark V [B]'),
+  ('CNM/BNR/Farndale', 'Helmet Attachment', 200, 'Reach Operator Pack', 'Mark V [B]'),
+  ('Final Stand', 'Armor Coating', 200, 'Reach Operator Pack', 'Mark V [B]'),
+  ('SAP/OP', 'Shoulder Left', 200, 'Reach Operator Pack', 'Mark V [B]'),
+  ('SAP/OP', 'Shoulder Right', 200, 'Reach Operator Pack', 'Mark V [B]'),
+-- Pineapple Heaven
+  ('Psychapple', 'Chest', 300, 'Pineapple Heaven', 'Mark VII'),
+  ('Pineapple Heaven', 'Backdrop', 300, 'Pineapple Heaven', NULL),
+  ('Chef', 'Nameplate', 200, 'Pineapple Heaven', NULL),
+  ('Chef', 'Vehicle Emblem', 200, 'Pineapple Heaven', NULL),
+  ('Chef', 'Armor Emblem', 200, 'Pineapple Heaven', NULL),
+  ('Chef', 'Weapon Emblem', 200, 'Pineapple Heaven', NULL),
+-- Greenhorn Pack
+  ('Greenhorn', 'Nameplate', 300, 'Greenhorn Pack', NULL),
+  ('Hexen Slate', 'Armor Coating', 200, 'Greenhorn Pack', 'Mark VII'),
+  ('UA/Velius', 'Shoulder Left', 200, 'Greenhorn Pack', 'Mark VII'),
+  ('UA/Velius', 'Shoulder Right', 200, 'Greenhorn Pack', 'Mark VII'),
+  ('Greenhorn', 'Weapon Emblem', 300, 'Greenhorn Pack', NULL),
+  ('Greenhorn', 'Armor Emblem', 300, 'Greenhorn Pack', NULL),
+  ('Greenhorn', 'Vehicle Emblem', 300, 'Greenhorn Pack', NULL),
+-- Soldier Armor Set
+  ('TAC/Liberty Rig', 'Chest', 300, 'Soldier Armor Set', 'Mark VII'),
+  ('Tahuna Sands', 'Armor Coating', 300, 'Soldier Armor Set', 'Mark VII'),
+  ('Soldier', 'Helmet', 200, 'Soldier Armor Set', 'Mark VII'),
+  ('FC-I/Basil', 'Helmet Attachment', 300, 'Soldier Armor Set', 'Mark VII'),
+  ('Mithril', 'Visor', 300, 'Soldier Armor Set', 'Mark VII'),
+  ('UA/Aeson', 'Shoulder Left', 300, 'Soldier Armor Set', 'Mark VII'),
+  ('UA/Aeson', 'Shoulder Right', 300, 'Soldier Armor Set', 'Mark VII'),
+  ('AAP/Ordnance Pack Mike', 'Utility', 300, 'Soldier Armor Set', 'Mark VII'),
+  ('Rocket Rescue', 'Stance', 300, 'Soldier Armor Set', NULL),
+-- Special Delivery
+  ('Space Pickle', 'Charm', 400, 'Special Delivery', NULL),
+  ('Legend', 'Visor', 400, 'Special Delivery', NULL),
+  ('Into The Breach', 'Stance', 200, 'Special Delivery', NULL),
+--Daisy Delights
+  ('Clonely Bear', 'Chest', 400, 'Daisy Delights', 'Mark VII'),
+  ('Flower Power', 'Helmet Attachment', 300, 'Daisy Delights', 'Mark VII'),
+  ('Petal Metal', 'Chest', 300, 'Daisy Delights', 'Mark VII'),
+  ('Thumper', 'Charm', 300, 'Daisy Delights', NULL),
+  ('Remembrance', 'Backdrop', 300, 'Daisy Delights', NULL),
+--Charming Start
+  ('Grapple', 'Charm', 300, 'Charming Start', NULL),
+  ('The Chief', 'Charm', 400, 'Charming Start', NULL),
+  ('The Pilot', 'Charm', 400, 'Charming Start', NULL),
+  ('Banished', 'Backdrop', 200, 'Charming Start', NULL),
+--Green & Blue
+  ('Green Man And Blue Lady', 'Charm', 400, 'Green & Blue', NULL),
+  ('Companion Cortana', 'AI Color', 400, 'Green & Blue', NULL),
+  ('Resplendent Journey', 'Backdrop', 200, 'Green & Blue', NULL),
+--Reach Jump Jet Pack
+  ('CNM/BNR/Typhon', 'Helmet Attachment', 200, 'Reach Jump Jet Pack', 'Mark V [B]'),
+  ('Scarlet Skies', 'Armor Coating', 200, 'Reach Jump Jet Pack', 'Mark V [B]'),
+  ('SAP/FJ', 'Shoulder Left', 200, 'Reach Jump Jet Pack', 'Mark V [B]'),
+  ('SAP/FJ', 'Shoulder Right', 200, 'Reach Jump Jet Pack', 'Mark V [B]'),
+--Keep It Clean
+  ('Pistol Plasma', 'AI Color', 200, 'Keep It Clean', NULL),
+  ('Superintendent', 'Nameplate', 300, 'Keep It Clean', NULL),
+  ('Superintendent', 'Armor Emblem', 300, 'Keep It Clean', NULL),
+  ('Superintendent', 'Weapon Emblem', 300, 'Keep It Clean', NULL),
+  ('Superintendent', 'Vehicle Emblem', 300, 'Keep It Clean', NULL),
+--Hazop Armor Set
+  ('Tasman Hunter', 'Armor Coating', 300, 'Hazop Armor Set', 'Mark V [B]'),
+  ('Hazop', 'Helmet', 200, 'Hazop Armor Set', 'Mark V [B]'),
+  ('MK55 CBRN', 'Helmet Attachment', 300, 'Hazop Armor Set', 'Mark V [B]'),
+  ('Murk', 'Visor', 300, 'Hazop Armor Set', 'Mark V [B]'),
+  ('UA/TSA Prototype', 'Chest', 200, 'Hazop Armor Set', 'Mark V [B]'),
+  ('SAP/Hazop', 'Shoulder Left', 200, 'Hazop Armor Set', 'Mark V [B]'),
+  ('SAP/Hazop', 'Shoulder Right', 200, 'Hazop Armor Set', 'Mark V [B]'),
+  ('UA/Type HAZ', 'Knee Pads', 200, 'Hazop Armor Set', 'Mark V [B]'),
+  ('To The Front', 'Stance', 200, 'Hazop Armor Set', NULL),
+--Sweet Success
+  ('Mission Success', 'Stance', 200, 'Sweet Success', NULL),
+  ('Team Earl Grey', 'Charm', 300, 'Sweet Success', NULL),
+  ('Spoon!', 'Nameplate', 300, 'Sweet Success', NULL),
+  ('Spoon!', 'Vehicle Emblem', 300, 'Sweet Success', NULL),
+  ('Spoon!', 'Weapon Emblem', 300, 'Sweet Success', NULL),
+  ('Spoon!', 'Armor Emblem', 300, 'Sweet Success', NULL),
+--Bullet Time
+  ('Raffia Wood', 'Armor Coating', 200, 'Bullet Time', 'Mark VII'),
+  ('CNM[5]/BNR/Fascinator', 'Helmet Attachment', 200, 'Bullet Time', 'Mark VII'),
+  ('UA/Faunus', 'Shoulder Left', 200, 'Bullet Time', 'Mark VII'),
+  ('UA/Faunus', 'Shoulder Right', 200, 'Bullet Time', 'Mark VII'),
+--Sleepwalker Suite
+  ('Complimentary Poppy', 'Armor Coating', 200, 'Sleepwalker Suite', 'Mark VII'),
+  ('UA/Theocles', 'Shoulder Left', 200, 'Sleepwalker Suite', 'Mark VII'),
+  ('UA/Theocles', 'Shoulder Right', 200, 'Sleepwalker Suite', 'Mark VII'),
+--Cat Lovers
+  ('Faded Blush', 'Armor Coating', 300, 'Cat Lovers', 'Mark VII'),
+  ('Purrfect Audio', 'Helmet Attachment', 300, 'Cat Lovers', 'Mark VII'),
+  ('Tabby', 'Charm', 200, 'Cat Lovers', NULL),
+  ('Kat', 'Charm', 300, 'Cat Lovers', NULL),
+--Chow Down
+  ('A Slice Of Life', 'Charm', 300, 'Chow Down', NULL),
+  ('Bacon', 'Charm', 300, 'Chow Down', NULL),
+  ('Second Breakfast', 'Nameplate', 200, 'Chow Down', NULL),
+  ('Second Breakfast', 'Weapon Emblem', 200, 'Chow Down', NULL),
+  ('Second Breakfast', 'Armor Emblem', 200, 'Chow Down', NULL),
+  ('Second Breakfast', 'Vehicle Emblem', 200, 'Chow Down', NULL),
+--Got Game
+  ('Calling Card', 'Helmet Attachment', 300, 'Got Game', 'Mark VII'),
+  ('Elite Control', 'Charm', 300, 'Got Game', NULL),
+  ('Perfect Putter', 'Nameplate', 200, 'Got Game', NULL),
+  ('Perfect Putter', 'Weapon Emblem', 200, 'Got Game', NULL),
+  ('Perfect Putter', 'Armor Emblem', 200, 'Got Game', NULL),
+  ('Perfect Putter', 'Vehicle Emblem', 200, 'Got Game', NULL),
+--Mister Chief
+  ('Mister Chief', 'AI Model', 400, 'Mister Chief', NULL),
+  ('Mystery Mister', 'AI Color', 400, 'Mister Chief', NULL),
+  ('Mister Chief', 'Charm', 200, 'Mister Chief', NULL),
+  ('Social Media Chief', 'Nameplate', 300, 'Mister Chief', NULL),
+  ('Social Media Chief', 'Weapon Emblem', 300, 'Mister Chief', NULL),
+  ('Social Media Chief', 'Vehicle Emblem', 300, 'Mister Chief', NULL),
+  ('Social Media Chief', 'Armor Emblem', 300, 'Mister Chief', NULL),
+--Shred Or Die
+  ('Shreddin', 'Nameplate', 300, 'Shred Or Die', NULL),
+  ('UA/Type ST', 'Knee Pads', 200, 'Shred Or Die', 'Mark VII'),
+  ('Skull', 'Charm', 300, 'Shred Or Die', NULL),
+  ('Shreddin', 'Vehicle Emblem', 300, 'Shred Or Die', NULL),
+  ('Shreddin', 'Armor Emblem', 300, 'Shred Or Die', NULL),
+  ('Shreddin', 'Weapon Emblem', 300, 'Shred Or Die', NULL)
 
 ;
   
@@ -229,7 +350,35 @@ VALUES
   ('Noble Principle', 'Vehicle Coating', 200, 'A259 Collection', 'M15 Razorback'),
   ('Noble Principle', 'Vehicle Emblem', 200, 'A259 Collection', NULL),
   ('Noble Principle', 'Armor Emblem', 200, 'A259 Collection', NULL),
-  ('Noble Principle', 'Weapon Emblem', 200, 'A259 Collection', NULL);
+  ('Noble Principle', 'Weapon Emblem', 200, 'A259 Collection', NULL),
+-- Mud Hog Wild
+  ('Espresso Expedition', 'Vehicle Coating', 300, 'Mud Hog Wild', 'M12 Warthog'),
+  ('Eagle Mudflaps', 'Vehicle Model', 300, 'Mud Hog Wild', 'M12 Warthog'),
+  ('Espresso Expedition', 'Vehicle Coating', 300, 'Mud Hog Wild', 'M290 Mongoose'),
+  ('Espresso Expedition', 'Vehicle Coating', 300, 'Mud Hog Wild', 'M290-M Gungoose'),
+  ('Espresso Expedition', 'Vehicle Coating', 300, 'Mud Hog Wild', 'M15 Razorback'),
+  ('Espresso Expedition', 'Vehicle Coating', 300, 'Mud Hog Wild', 'M12-R Rockethog'),
+-- Citrus Ink
+  ('Citrus Ink', 'Vehicle Coating', 200, 'Citrus Ink', 'M12 Warthog'),
+  ('DAK Windshield Armor', 'Vehicle Model', 200, 'Citrus Ink', 'M12 Warthog'),
+  ('Citrus Ink', 'Vehicle Coating', 200, 'Citrus Ink', 'M290 Mongoose'),
+  ('Citrus Ink', 'Vehicle Coating', 200, 'Citrus Ink', 'M290-M Gungoose'),
+  ('Citrus Ink', 'Vehicle Coating', 200, 'Citrus Ink', 'M15 Razorback'),
+  ('Citrus Ink', 'Vehicle Coating', 200, 'Citrus Ink', 'M12-R Rockethog')
+
+;
+
+INSERT INTO bundle_items (full_name, gear_type, rarity, bundle_id, locked_to_weapon, locked_to_vehicle)
+VALUES
+--Snow Bird
+  ('Snow Blind', 'Vehicle Coating', 400, 'Snow Bird', NULL, 'AV-49 Wasp'),
+  ('Tundra Pursuit', 'Weapon Coating', 300, 'Snow Bird', 'CQS48 Bulldog', NULL),
+  ('Sabre Response', 'Nameplate', 200, 'Snow Bird', NULL, NULL),
+  ('Sabre Response', 'Vehicle Emblem', 200, 'Snow Bird', NULL, NULL),
+  ('Sabre Response', 'Weapon Emblem', 200, 'Snow Bird', NULL, NULL),
+  ('Sabre Response', 'Armor Emblem', 200, 'Snow Bird', NULL, NULL)
+
+;
 
 INSERT INTO bundle_items (full_name, gear_type, rarity, bundle_id, locked_to_vehicle, locked_to_core)
 VALUES
@@ -271,8 +420,37 @@ VALUES
   ('Vigilance', 'Nameplate', 300, 'Vigilant Sniper', NULL),
   ('Vigilance', 'Vehicle Emblem', 300, 'Vigilant Sniper', NULL),
   ('Vigilance', 'Armor Emblem', 300, 'Vigilant Sniper', NULL),
-  ('Vigilance', 'Weapon Emblem', 300, 'Vigilant Sniper', NULL)
-
+  ('Vigilance', 'Weapon Emblem', 300, 'Vigilant Sniper', NULL),
+-- Vakara Bred
+  ('Far Horizon', 'Stance', 200, 'Vakara Bred', NULL),
+  ('Glass Hound', 'Weapon Coating', 200, 'Vakara Bred', 'VK78 Commando'),
+  ('Glass Hound', 'Weapon Coating', 200, 'Vakara Bred', 'BR75 Battle Rifle'),
+  ('Glass Hound', 'Weapon Coating', 200, 'Vakara Bred', 'MA40 Assault Rifle'),
+  ('Glass Hound', 'Weapon Coating', 200, 'Vakara Bred', 'MK50 Sidekick'),
+-- Happy Hunting
+  ('GRD Bear', 'Charm', 400, 'Happy Hunting', NULL),
+  ('Buckshot Bonanza', 'Weapon Coating', 300, 'Happy Hunting', 'CQS48 Bulldog'),
+  ('Brutes', 'Nameplate', 200, 'Happy Hunting', NULL),
+  ('Brutes', 'Armor Emblem', 200, 'Happy Hunting', NULL),
+  ('Brutes', 'Vehicle Emblem', 200, 'Happy Hunting', NULL),
+  ('Brutes', 'Weapon Emblem', 200, 'Happy Hunting', NULL),
+--Honorbound Weapon Set
+  ('Arena Clash', 'Weapon Coating', 300, 'Honorbound Weapon Set', 'MA40 Assault Rifle'),
+  ('Golden Eagle', 'Weapon Model', 400, 'Honorbound Weapon Set', 'MA40 Assault Rifle'),
+  ('Controlled Leek', 'Charm', 300, 'Honorbound Weapon Set', NULL),
+  ('Skirmisher', 'Nameplate', 200, 'Honorbound Weapon Set', NULL),
+  ('Skirmisher', 'Vehicle Emblem', 200, 'Honorbound Weapon Set', NULL),
+  ('Skirmisher', 'Weapon Emblem', 200, 'Honorbound Weapon Set', NULL),
+  ('Skirmisher', 'Armor Emblem', 200, 'Honorbound Weapon Set', NULL),
+--Maltese Mayhem Weapon Set
+  ('Type 2P Flash Hider', 'Weapon Model', 300, 'Maltese Mayhem Weapon Set', 'BR75 Battle Rifle'),
+  ('Critpoint Shroud', 'Weapon Model', 300, 'Maltese Mayhem Weapon Set', 'MK50 Sidekick'),
+  ('Type 2A Barrel Shroud', 'Weapon Model', 300, 'Maltese Mayhem Weapon Set', 'MA40 Assault Rifle'),
+  ('Maltese Mayhem', 'Weapon Coating', 300, 'Maltese Mayhem Weapon Set', 'BR75 Battle Rifle'),
+  ('Maltese Mayhem', 'Weapon Coating', 300, 'Maltese Mayhem Weapon Set', 'MK50 Sidekick'),
+  ('Maltese Mayhem', 'Weapon Coating', 300, 'Maltese Mayhem Weapon Set', 'MA40 Assault Rifle'),
+  ('Maltese Mayhem', 'Weapon Coating', 300, 'Maltese Mayhem Weapon Set', 'VK78 Commando')
+  
 ;
 
 INSERT INTO bundle_items (full_name, gear_type, rarity, bundle_id, locked_to_weapon, locked_to_core)
@@ -281,5 +459,22 @@ VALUES
   ('Lilac Steel', 'Weapon Coating', 200, 'Tacticlamp 117', 'MK50 Sidekick', NULL),
   ('Tacticlamp', 'Weapon Model', 200, 'Tacticlamp 117', 'MK50 Sidekick', NULL),
   ('Agent 117', 'Stance', 300, 'Tacticlamp 117', NULL, NULL),
-  ('Big Sur', 'Armor Coating', 200, 'Tacticlamp 117', NULL, 'Mark VII')
+  ('Big Sur', 'Armor Coating', 200, 'Tacticlamp 117', NULL, 'Mark VII'),
+--Neptunes Depths
+  ('Neptunes Depth', 'Weapon Coating', 400, 'Neptunes Depths', 'CQS48 Bulldog', NULL),
+  ('Cloven Seafoam', 'Armor Coating', 200, 'Neptunes Depths', NULL, 'Mark VII'),
+  ('Room Sweeper', 'Stance', 200, 'Neptunes Depths', NULL, NULL),
+--Fire and Frost
+  ('Vermillion Fire', 'Armor Coating', 400, 'Fire And Frost', NULL, 'Mark VII'),
+  ('Vermillion Flame', 'Armor Coating', 400, 'Fire And Frost', NULL, 'Yoroi'),
+  ('Vermillion Wrath', 'Armor Coating', 400, 'Fire And Frost', NULL, 'Mark V [B]'),
+  ('Snow Whisper', 'Weapon Coating', 300, 'Fire And Frost', 'BR75 Battle Rifle', NULL),
+  ('Verglas Memory', 'Weapon Coating', 300, 'Fire And Frost', 'S7 Sniper', NULL),
+  ('Verglas Memory', 'Weapon Coating', 300, 'Fire And Frost', 'CQS48 Bulldog', NULL),
+  ('Trash Removal', 'Stance', 300, 'Fire And Frost', NULL, NULL),
+  ('Tempest Of Blades', 'Nameplate', 300, 'Fire And Frost', NULL, NULL),
+  ('Tempest Of Blades', 'Armor Emblem', 300, 'Fire And Frost', NULL, NULL),
+  ('Tempest Of Blades', 'Weapon Emblem', 300, 'Fire And Frost', NULL, NULL),
+  ('Tempest Of Blades', 'Vehicle Emblem', 300, 'Fire And Frost', NULL, NULL)
+  
 ;
