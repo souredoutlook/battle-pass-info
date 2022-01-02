@@ -1,5 +1,5 @@
 --weekly and seasonal appearances
-INSERT INTO daily_bundle_appearances (appearance_date, bundle_id)
+INSERT INTO bundle_appearances (appearance_date, bundle_id)
 VALUES
   ('211115', 'Heroes Of Reach Pass Bundle'),
   ('211115', 'Cloud9'),
@@ -36,7 +36,7 @@ VALUES
   ('211228', 'Snow Bird')
 ;
 
-INSERT INTO daily_bundle_appearances (appearance_date, bundle_id)
+INSERT INTO bundle_appearances (appearance_date, bundle_id)
 VALUES
   ('211115', 'Engima'),
   ('211115', 'Chibi Blue Team'),
