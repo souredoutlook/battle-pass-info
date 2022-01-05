@@ -109,5 +109,16 @@ VALUES
   ('211230', 'Got Game'),
   ('211231', 'Scarlet Medic'),
   ('220101', 'Shred Or Die'),
-  ('220202', 'Citrus Ink')
-  ;
+  ('220102', 'Citrus Ink'),
+  ('220103', 'Chow Down')
+;
+
+  -- New Format with weekly and daily bundles in the same list
+
+INSERT INTO bundle_appearances (appearance_date, bundle_id)
+VALUES
+  ('220104', 'Enlightened Path'),
+  ('220104', 'Meditative State'),
+  ('220104','Blacksteel Katana'),
+  ('220104', 'Desert Sun')
+;

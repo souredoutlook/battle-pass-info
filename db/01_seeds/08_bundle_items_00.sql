@@ -334,8 +334,18 @@ VALUES
   ('Skull', 'Charm', 300, 'Shred Or Die', NULL),
   ('Shreddin', 'Vehicle Emblem', 300, 'Shred Or Die', NULL),
   ('Shreddin', 'Armor Emblem', 300, 'Shred Or Die', NULL),
-  ('Shreddin', 'Weapon Emblem', 300, 'Shred Or Die', NULL)
-
+  ('Shreddin', 'Weapon Emblem', 300, 'Shred Or Die', NULL),
+--Enlightened Path
+  ('Enlightened Path', 'Mythic Effect Set', 400, 'Enlightened Path', NULL),
+  ('Grand Play', 'Nameplate', 200, 'Enlightened Path', NULL),
+  ('Grand Play', 'Weapon Emblem', 200, 'Enlightened Path', NULL),
+  ('Grand Play', 'Vehicle Emblem', 200, 'Enlightened Path', NULL),
+  ('Grand Play', 'Armor Emblem', 200, 'Enlightened Path', NULL),
+--Meditative State
+  ('Expressive Soul', 'Armor Coating', 300, 'Meditative State', 'Yoroi'),
+  ('Imperial Crest', 'Helmet Attachment', 400, 'Meditative State', 'Yoroi'),
+  ('Mirror Tale', 'Stance', 200, 'Meditative State', NULL),
+  ('Black Opal', 'Charm', 300, 'Meditative State', NULL)
 ;
   
 INSERT INTO bundle_items (full_name, gear_type, rarity, bundle_id, locked_to_vehicle)
@@ -449,8 +459,15 @@ VALUES
   ('Maltese Mayhem', 'Weapon Coating', 300, 'Maltese Mayhem Weapon Set', 'BR75 Battle Rifle'),
   ('Maltese Mayhem', 'Weapon Coating', 300, 'Maltese Mayhem Weapon Set', 'MK50 Sidekick'),
   ('Maltese Mayhem', 'Weapon Coating', 300, 'Maltese Mayhem Weapon Set', 'MA40 Assault Rifle'),
-  ('Maltese Mayhem', 'Weapon Coating', 300, 'Maltese Mayhem Weapon Set', 'VK78 Commando')
-  
+  ('Maltese Mayhem', 'Weapon Coating', 300, 'Maltese Mayhem Weapon Set', 'VK78 Commando'),
+--Blacksteel Katana
+  ('Dragonbark Adornment', 'Weapon Model', 400, 'Blacksteel Katana', 'MA40 Assault Rifle'),
+  ('Black Cat', 'Weapon Coating', 300, 'Blacksteel Katana', 'MA40 Assault Rifle'),
+  ('Tiger Energy', 'Charm', 200, 'Blacksteel Katana', NULL),
+  ('Sun And Shadow', 'Nameplate', 200, 'Blacksteel Katana', NULL),
+  ('Sun And Shadow', 'Weapon Emblem', 200, 'Blacksteel Katana', NULL),
+  ('Sun And Shadow', 'Armor Emblem', 200, 'Blacksteel Katana', NULL),
+  ('Sun And Shadow', 'Vehicle Emblem', 200, 'Blacksteel Katana', NULL)
 ;
 
 INSERT INTO bundle_items (full_name, gear_type, rarity, bundle_id, locked_to_weapon, locked_to_core)

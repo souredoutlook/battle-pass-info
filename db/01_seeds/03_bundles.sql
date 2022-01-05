@@ -69,5 +69,8 @@ VALUES
   ('Citrus Ink', 200, '211225', 500, 'Daily'),
   ('Mister Chief', 400, '211228', 2000, 'Weekly'),
   ('Snow Bird', 300, '211228', 1000, 'Weekly'),
-  ('Shred Or Die', 200, '211228', 500, 'Daily')
+  ('Shred Or Die', 200, '211228', 500, 'Daily'),
+  ('Enlightened Path', 400, '220104', 2000, 'Weekly'),
+  ('Meditative State', 300, '220104', 1000, 'Weekly'),
+  ('Blacksteel Katana', 300, '220104', 1500, 'Weekly')
   ;
